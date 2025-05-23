@@ -35,3 +35,4 @@ if ! grep -q "^%$GROUPNAME ALL=(ALL) NOPASSWD: ALL" /etc/sudoers; then
     echo "Updated sudoers: %$GROUPNAME NOPASSWD enabled."
 fi
 
+
